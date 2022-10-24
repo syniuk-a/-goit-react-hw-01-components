@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Profile = styled.div`
+  border: 2px solid;
+  border-radius: 6px;
   margin: 50px auto;
   max-width: 250px;
   heigth: 315px;
