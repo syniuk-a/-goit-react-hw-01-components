@@ -13,13 +13,7 @@ import {
   ItemQuantity,
 } from './Profile.styled';
 
-export const User = ({
-  username,
-  tag,
-  location,
-  avatar,
-  stats,
-}) => {
+export const User = ({ username, tag, location, avatar, stats }) => {
   return (
     <Profile>
       <Description>
