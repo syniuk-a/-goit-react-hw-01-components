@@ -1,5 +1,4 @@
 import propTypes from 'prop-types';
-import defaultImage from './default.jpg';
 
 import {
   Profile,
@@ -18,7 +17,7 @@ export const User = ({
   username,
   tag,
   location,
-  avatar = defaultImage,
+  avatar,
   stats,
 }) => {
   return (
